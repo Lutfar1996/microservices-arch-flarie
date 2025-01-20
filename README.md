@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project sets up a scalable, fault-tolerant, and secure infrastructure for a microservice-based architecture on AWS. The infrastructure is provisioned using Terraform, ensuring consistency, modularity, and automation. The system supports frontend, backend, API integrations, database, and caching microservices with built-in monitoring, logging, alerting, and security features.
+This project sets up a scalable, fault-tolerant, and secure infrastructure for a microservice-based architecture on AWS. The system supports frontend, backend, API integrations, database, and caching microservices with built-in monitoring, logging, alerting, and security features.
 
 ---
 
