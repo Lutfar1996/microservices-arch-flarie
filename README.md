@@ -64,16 +64,18 @@ cd microservice-infra-aws-terraform
 
 ### Terraform Workflow
 
-This document outlines the basic Terraform commands to manage the infrastructure.
+Basic Terraform commands to manage the infrastructure.
 
 ## Prerequisites
 
 1. Install [Terraform](https://www.terraform.io/downloads.html) on your system.
-2. Configure your AWS CLI:
-   ```bash
-   aws configure
-   terraform init   (This command initializes the Terraform working directory)
-   terraform plan    (Generate an execution plan to see what changes Terraform will make)
-   terraform apply   (Apply the changes defined in the plan)
-   terraform destroy  (If you want to tear down the infrastructure, run)
-   ```
+
+### Configure your AWS CLI:
+
+```bash
+aws configure
+terraform init   (This command initializes the Terraform working directory)
+terraform plan    (Generate an execution plan to see what changes Terraform will make)
+terraform apply   (Apply the changes defined in the plan)
+terraform destroy  (If you want to tear down the infrastructure, run)
+```
