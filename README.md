@@ -74,8 +74,15 @@ Basic Terraform commands to manage the infrastructure.
 
 ```bash
 aws configure
+
+```
+
+### Terraform Command:
+
+```bash
 terraform init   (This command initializes the Terraform working directory)
 terraform plan    (Generate an execution plan to see what changes Terraform will make)
 terraform apply   (Apply the changes defined in the plan)
 terraform destroy  (If you want to tear down the infrastructure, run)
+
 ```
