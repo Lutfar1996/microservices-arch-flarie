@@ -21,8 +21,7 @@ This project sets up a scalable, fault-tolerant, and secure infrastructure for a
 
 ## Architecture Diagram
 
-![Architecture Diagram](TASK-2/flarie.png)  
-_Replace `TASK-2/flarie.png` with the link to your architecture image in the repository._
+<img src="flarie.png" alt="Architecture Diagram" width="600">
 
 ---
 
