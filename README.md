@@ -29,10 +29,10 @@ This project sets up a scalable, fault-tolerant, and secure infrastructure for a
 
 ### AWS Services
 
-- **Frontend**: Hosted on S3 and delivered via CloudFront with AWS WAF for added security.
+- **Frontend**: Hosted on S3 and delivered via CloudFront .
 - **Backend**: Deployed on Amazon ECS (Fargate) to ensure scalability and containerized management.
-- **Third-Party API Integration**: Managed via API Gateway for unified API entry points.
-- **Database**: Amazon RDS (PostgreSQL) for relational data storage in a secure and highly available setup.
+- **API Integration**: Managed via API Gateway for unified API entry points.
+- **Database**: Amazon RDS (MySQL) for relational data storage in a secure and highly available setup.
 - **Caching**: Amazon ElastiCache (Redis) for faster data retrieval.
 - **Secrets Management**: AWS Secrets Manager for secure storage of sensitive data.
 
@@ -55,9 +55,25 @@ This project sets up a scalable, fault-tolerant, and secure infrastructure for a
 
 ## Setup Instructions
 
-### Step 1: Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/your-github-username/microservice-infra-aws-terraform.git
 cd microservice-infra-aws-terraform
 ```
+
+### Terraform Workflow
+
+This document outlines the basic Terraform commands to manage the infrastructure.
+
+## Prerequisites
+
+1. Install [Terraform](https://www.terraform.io/downloads.html) on your system.
+2. Configure your AWS CLI:
+   ```bash
+   aws configure
+   terraform init   (This command initializes the Terraform working directory)
+   terraform plan    (Generate an execution plan to see what changes Terraform will make)
+   terraform apply   (Apply the changes defined in the plan)
+   terraform destroy  (If you want to tear down the infrastructure, run)
+   ```
